@@ -1,3 +1,8 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
 #root {
   display: flex;
   width: 100vw;
@@ -32,7 +37,7 @@
   margin-bottom: 25px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
-.card-сinema__button {
+.button {
   width: 100%;
   height: 60px;
   outline: none;
@@ -46,9 +51,29 @@
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   transition: box-shadow 0.15s ease-in-out;
 }
-.card-сinema__button:hover {
+.button:hover {
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
-.card-сinema__button:active {
+.button:active {
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
+
+
+.info {
+  display: flex;
+}
+.info__poster {
+  width: 400px;
+}
+.info__content {
+  width: 450px;
+  padding-left: 50px;
+}
+.info__poster img  {
+  width: 100%;
+}
+
+.cinemas {
+  width: 100%;
+}
+

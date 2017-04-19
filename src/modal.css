@@ -1,0 +1,22 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  padding: 50px;
+  overflow-y: scroll;
+  background-color: rgba(0,0,0,0.8);
+
+}
+
+.modal {
+  background-color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  max-width: 960px;
+  width: 100%;
+  padding: 30px;
+};
