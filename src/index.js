@@ -12,7 +12,7 @@ class App extends React.Component {
     super();
 
     this.state = {
-      modalIsOpen: false
+      showModal: false
     };
 
     this.openModal = this.openModal.bind(this);
@@ -21,13 +21,13 @@ class App extends React.Component {
 
   openModal() {
     this.setState({
-      modalIsOpen: true
+      showModal: true
     });
   }
 
   closeModal() {
     this.setState({
-      modalIsOpen: false
+      showModal: false
     });
   }
 
@@ -40,7 +40,7 @@ class App extends React.Component {
         <img className="card-сinema__preview" src={preview} alt="preview"/>
         <button className="button" onClick={this.openModal}>Следующий фильм</button>
         <Modal
-          isOpen={this.state.modalIsOpen}
+          isOpen={this.state.showModal}
           onRequestClose={this.closeModal}
           contentLabel="Example Modal"
           className="modal"
