@@ -1,6 +1,5 @@
 import React from 'react';
-import loader from './images/loader.gif';
-import './index.css';
+import loader from './../images/loader.gif';
 
 export class Poster extends React.Component {
   render() {

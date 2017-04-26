@@ -1,5 +1,4 @@
 import React from 'react';
-import './index.css';
 
 export class ButtonNext extends React.Component {
   constructor() {
